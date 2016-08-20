@@ -1,16 +1,15 @@
 body{
-	background-image: url("pic.jpg");
-    background-color: #cccccc;
+	background-image: url("pic.jpg");			/* sets the background image */
+    background-color: #cccccc;					/* sets the background color */
 }
 
-h1{
-	color: #ff0066;                						 /* sets the default color */
-}
-h1:hover{												/* applies different styles when hoveres over */
-	color : pink;										/* setting the new color */
+
+h1{														/* applying different styles to h1 tag */
+	color : pink;										/* setting the color */
 	font-family: "Times new roman", sans-serif; 		/* changing the default font */
 	font-style: italic;									/* making the font italic */				
 	text-shadow: 2px 2px 5px black;						/* creating a shadow effect around on the h1 element */
 	font-weight: bold;									/* making the font bold */
+	font-size: 2.5em; 									/* changes the font size to 2.5 times bigger */
 }
 
