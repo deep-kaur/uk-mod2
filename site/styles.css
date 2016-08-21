@@ -1,15 +1,41 @@
 body{
-	background-image: url("pic.jpg");			/* sets the background image */
-    background-color: #cccccc;					/* sets the background color */
+	background-image: url("pic.jpg");			/* for the background image */
+    background-color: #cccccc;					/* for the background color */
+    
 }
 
 
-h1{														/* applying different styles to h1 tag */
-	color : pink;										/* setting the color */
+.one{														/* applying different styles to h1 tag */
+	color : pink;										/* for setting the color */
 	font-family: "Times new roman", sans-serif; 		/* changing the default font */
 	font-style: italic;									/* making the font italic */				
 	text-shadow: 2px 2px 5px black;						/* creating a shadow effect around on the h1 element */
 	font-weight: bold;									/* making the font bold */
-	font-size: 2.5em; 									/* changes the font size to 2.5 times bigger */
+	font-size: 3.5em; 									/* changes the font size to 3.5 times bigger */
+	text-align: center;
+	margin-top: 20px;
 }
 
+.two{														/* applying different styles to second h1 tag */
+	color : blue;										/*  for setting the color */
+	font-family: 'Alex Brush', cursive;					/* changing the default font */
+					
+	text-shadow: 2px 2px 5px black;						/* creating a shadow effect around on the h1 element */
+	font-weight: bold;									/* making the font bold */
+	font-size: 5.5em; 									/* changes the font size to 3.5 times bigger */
+	text-align: center;
+	margin-top: 20px;									/* for creating some space fron the top */
+	opacity: 0.7;											/* for some faded effect */
+    filter: alpha(opacity=1); 							/* For IE8 and earlier */
+}
+.three{														/* applying different styles third to h1 tag */
+	color : red;										/* setting the color */
+	font-family: 'Quintessential', cursive;				/* changing the default font */
+	font-style: italic;									/* making the font italic */				
+	text-shadow: 2px 2px 5px black;		   				/* creating a shadow effect around on the h1 element */
+	font-weight: bold;									/* making the font bold */
+	font-size: 3.5em; 									/* changes the font size to 3.5 times bigger */
+	text-align: center;
+	margin-top: 20px;
+	opacity: 0.7;
+}
